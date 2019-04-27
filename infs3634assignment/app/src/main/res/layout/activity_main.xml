@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bgckrd"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/quiz_button"
+        android:layout_width="192dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="404dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#5B356E"
+        android:fontFamily="@font/nova_round"
+        android:text="Press to Begin"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/flashMeTitle"
+        android:layout_width="343dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/nova_round"
+        android:gravity="center"
+        android:shadowColor="#DE3C98"
+        android:shadowDy="10"
+        android:shadowRadius="60"
+        android:text="BizQuiz"
+        android:textColor="#ffffff"
+        android:textSize="64sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/quiz_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>
